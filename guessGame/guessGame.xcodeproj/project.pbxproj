@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E9FDDD12A77BB74007B52FF /* BullsAndCowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9FDDD02A77BB74007B52FF /* BullsAndCowsViewController.swift */; };
 		1EF35FE62A75083F00EE1AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF35FE52A75083F00EE1AB2 /* AppDelegate.swift */; };
 		1EF35FE82A75083F00EE1AB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF35FE72A75083F00EE1AB2 /* SceneDelegate.swift */; };
 		1EF35FED2A75083F00EE1AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF35FEB2A75083F00EE1AB2 /* Main.storyboard */; };
 		1EF35FEF2A75084000EE1AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF35FEE2A75084000EE1AB2 /* Assets.xcassets */; };
 		1EF35FF22A75084000EE1AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF35FF02A75084000EE1AB2 /* LaunchScreen.storyboard */; };
 		1EF35FFA2A750D0A00EE1AB2 /* guessNumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF35FF92A750D0A00EE1AB2 /* guessNumController.swift */; };
-		1EF35FFC2A755B9400EE1AB2 /* BullsAndCowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF35FFB2A755B9400EE1AB2 /* BullsAndCowsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E9FDDD02A77BB74007B52FF /* BullsAndCowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsAndCowsViewController.swift; sourceTree = "<group>"; };
 		1EF35FE22A75083F00EE1AB2 /* guessGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guessGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF35FE52A75083F00EE1AB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF35FE72A75083F00EE1AB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		1EF35FF12A75084000EE1AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EF35FF32A75084000EE1AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EF35FF92A750D0A00EE1AB2 /* guessNumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessNumController.swift; sourceTree = "<group>"; };
-		1EF35FFB2A755B9400EE1AB2 /* BullsAndCowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsAndCowsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				1EF35FE52A75083F00EE1AB2 /* AppDelegate.swift */,
-				1EF35FFB2A755B9400EE1AB2 /* BullsAndCowsViewController.swift */,
 				1EF35FE72A75083F00EE1AB2 /* SceneDelegate.swift */,
 				1EF35FF92A750D0A00EE1AB2 /* guessNumController.swift */,
 				1EF35FEB2A75083F00EE1AB2 /* Main.storyboard */,
 				1EF35FEE2A75084000EE1AB2 /* Assets.xcassets */,
 				1EF35FF02A75084000EE1AB2 /* LaunchScreen.storyboard */,
 				1EF35FF32A75084000EE1AB2 /* Info.plist */,
+				1E9FDDD02A77BB74007B52FF /* BullsAndCowsViewController.swift */,
 			);
 			path = guessGame;
 			sourceTree = "<group>";
@@ -143,8 +143,8 @@
 			files = (
 				1EF35FE62A75083F00EE1AB2 /* AppDelegate.swift in Sources */,
 				1EF35FFA2A750D0A00EE1AB2 /* guessNumController.swift in Sources */,
+				1E9FDDD12A77BB74007B52FF /* BullsAndCowsViewController.swift in Sources */,
 				1EF35FE82A75083F00EE1AB2 /* SceneDelegate.swift in Sources */,
-				1EF35FFC2A755B9400EE1AB2 /* BullsAndCowsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
